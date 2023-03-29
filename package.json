@@ -10,14 +10,14 @@
   "scripts": {
     "commit": "commit/cli.js",
     "release": "release-it",
-    "husky": "husky install"
+    "husky": "husky install",
+    "lint": "eslint --cache --ext .js,.ts,.tsx .",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@commitlint/cli": "^17.5.1",
     "@commitlint/config-conventional": "^17.4.4",
     "@release-it/conventional-changelog": "^5.1.1",
-    "@tsconfig/next": "^1.0.5",
-    "@tsconfig/recommended": "^1.0.2",
     "@types/node": "^18.15.11",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
     "@typescript-eslint/parser": "^5.57.0",
