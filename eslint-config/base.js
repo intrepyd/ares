@@ -17,6 +17,7 @@ module.exports = {
     "plugin:prettier/recommended",
     "plugin:sonarjs/recommended",
     "plugin:unicorn/recommended",
+    "turbo",
   ],
   root: true,
   env: {

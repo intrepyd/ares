@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ["./recommended", "next/core-web-vitals"],
+  extends: [
+    "./recommended",
+    "next/core-web-vitals",
+    "plugin:tailwindcss/recommended",
+  ],
   rules: {
     "unicorn/no-null": "off",
     "jsx-a11y/anchor-is-valid": "off",
