@@ -1,7 +1,7 @@
 {
   "name": "ares",
   "description": "Intrepyd dev tools",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Intrepyd team <team@intrepyd.co>",
   "license": "MIT",
   "bin": {
